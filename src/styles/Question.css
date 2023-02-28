@@ -1,0 +1,33 @@
+.question_container {
+    min-height: 200px;
+    border-bottom: 2px #4D5B9E solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+
+.answers_container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+} 
+
+.answers_container button {
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+    color: #F5F7FB;
+    background-color: transparent;
+    color: black;  
+    border: solid #293264 2px;
+}
+
+.question {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    /* text-align: center; */
+    color: #293264;
+}
