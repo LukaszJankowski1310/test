@@ -1,8 +1,8 @@
-import React, {useEffect, useState} from 'react'
+import React from 'react'
 import "../styles/Question.css"
 
 function Question(props) {
-    let {id, answers,  questionText, category, markedQuestion} = props.data
+    let {id, answers,  questionText, markedQuestion} = props.data
 
 
 
